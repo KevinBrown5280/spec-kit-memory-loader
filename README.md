@@ -19,12 +19,10 @@ The Memory Loader extension registers `before_*` hooks on all major spec-kit lif
 
 ```bash
 # From release
-specify extension add memory-loader --from \
-  https://github.com/KevinBrown5280/spec-kit-memory-loader/archive/refs/tags/v1.0.0.zip
+specify extension add memory-loader --from https://github.com/KevinBrown5280/spec-kit-memory-loader/archive/refs/tags/v1.0.0.zip
 
 # From main branch
-specify extension add memory-loader --from \
-  https://github.com/KevinBrown5280/spec-kit-memory-loader/archive/refs/heads/main.zip
+specify extension add memory-loader --from https://github.com/KevinBrown5280/spec-kit-memory-loader/archive/refs/heads/main.zip
 
 # Development mode (local clone)
 specify extension add --dev /path/to/spec-kit-memory-loader
